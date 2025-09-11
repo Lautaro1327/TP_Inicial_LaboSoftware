@@ -46,7 +46,7 @@ boton_tablas = tk.Button(ventana, text="Tablas Referenciales", command=abrir_tab
 boton_tablas.pack(pady=5)
 
 # Botón para abrir la ventana de dashboards
-boton_reportes = tk.Button(ventana, text="Reportes y Dashboards", command=abrir_reportes, width=25, height=2)
+boton_reportes = tk.Button(ventana, text="Reportes y Dashboards", command=abrir_reportes, width=25, height=2,bg='#4CAF50', fg='white', activebackground='#45A049', activeforeground='white')
 boton_reportes.pack(pady=5)
 
 if __name__ == "__main__":
